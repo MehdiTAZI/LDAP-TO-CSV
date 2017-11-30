@@ -12,3 +12,12 @@ the script :
 - works with unsecure and secure LDAP( using certificates )
 - due to it CSV mapping in with a const columns number, it can be easly converted to RDBMS schema
 
+
+# HOW TO USE
+./ldap_to_csv.py -s "ldap://localhost:389" -u "cn=Username,dc=PlatformName,dc=OrganisationName" -b "dc=PlatformName,dc=OrganisationName" -x "password" -f "ldap_export.csv" -e "ou=employees" -p "certificate.pem" -k "Employee UID" -l "\n" -c ";" -v "#"
+
+# VARIOUS
+CN = Common Name
+OU = Organizational Unit
+DC = Domain Component
+
