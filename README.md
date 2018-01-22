@@ -21,3 +21,6 @@ CN = Common Name
 OU = Organizational Unit
 DC = Domain Component
 
+# SECURITY
+
+if you are calling your script from from an automated script ( no humain intervention ) please think encoding your password using a secure algorithm of at least obfuscating it using base64 as an example.
